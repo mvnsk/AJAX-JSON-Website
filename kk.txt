@@ -1,0 +1,59 @@
+function generateHTML(jsonObj) {
+        root = jsonObj.DocumentElement;
+        html_text =
+          "<html><head><title>Largest Manufacturers by Production (2017) </title></head><body>";
+        html_text += "<table border='2'>";
+        html_text += "<tr> <td> karthik</td><td>mudunuru</td> </tr>";
+
+        /* headings = jsonObj.Mainline.Table.Header.Data; // an array of headings
+        for (i = 0; i < headings.length; i++) {
+          name = headings[i];
+          html_text += "<td> <b>" + name + "</b></td>";
+        }
+        html_text += "</tr>";
+        x = 50;
+        y = 50;
+
+        var rows = jsonObj.Mainline.Table.Row;
+
+        for (i = 0; i < rows.length; i++) {
+          var rowdata = rows[i];
+          var rowkey = Object.keys(rowdata);
+          html_text += "<tr>";
+          for (j = 0; j < rowkey.length; j++) {
+            prop = rowkey[j];
+            if (prop == "Logo") {
+              //handle images separately
+              html_text +=
+                "<td><img src='" +
+                rowdata[prop] +
+                "' width='" +
+                x +
+                "' height='" +
+                y +
+                "'></td>";
+            } else if (prop == "Homepage") {
+              html_text +=
+                "<td><a href='" +
+                rowdata[prop] +
+                "'  >" +
+                rowdata[prop] +
+                "</a></td>";
+            } else if (prop == "Hubs") {
+              html_text += "<td>";
+              hub = prop;
+              for (k = 0; k < hub.length; k++) {
+                html_text += hub[k];
+                html_text += " </br>";
+              }
+              html_text += "</td>";
+            } else {
+              html_text += "<td>" + planeNodeList[prop] + "</td>";
+            }
+          }
+          html_text += "</tr>";
+        }*/
+        html_text += "</table>";
+        html_text += "</bo" + "<dy> </html>";
+      }
+    </script>
